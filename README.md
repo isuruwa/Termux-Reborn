@@ -9,7 +9,7 @@
 
 * Fixed pkg update issues
 * Any architecture Support
-* No more Errors
+* No more Outdated Errors
 
 # <a href = "https://github.com/isuruwa/Termux-Reborn/releases/download/Termux/Termux-Reborn.apk">Download Apk</a>
 
