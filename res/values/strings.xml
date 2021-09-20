@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_autofill_password">Autofill password</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_create_named_session_confirm">Create</string>
+    <string name="action_file_received_edit">Edit</string>
+    <string name="action_file_received_open_directory">Open directory</string>
+    <string name="action_kill_process">Kill process (%d)</string>
+    <string name="action_new_session">New session</string>
+    <string name="action_new_session_failsafe">Failsafe</string>
+    <string name="action_open_help">Help</string>
+    <string name="action_open_settings">Settings</string>
+    <string name="action_rename_session_confirm">Set</string>
+    <string name="action_report_issue">Report Issue</string>
+    <string name="action_reset_terminal">Reset</string>
+    <string name="action_select_url">Select URL</string>
+    <string name="action_share">Share</string>
+    <string name="action_share_transcript">Share transcript</string>
+    <string name="action_style_terminal">Style</string>
+    <string name="action_styling_install">Install</string>
+    <string name="action_toggle_keep_screen_on">Keep screen on</string>
+    <string name="action_toggle_soft_keyboard">Keyboard</string>
+    <string name="application_name">Termux</string>
+    <string name="bootstrap_error_abort">Abort</string>
+    <string name="bootstrap_error_body">Termux was unable to install the bootstrap packages.</string>
+    <string name="bootstrap_error_not_primary_user_message">"Termux can only be run as the primary user.
+Bootstrap binaries compiled for Termux have hardcoded $PREFIX path and cannot be installed under any path other than \"%1$s\"."</string>
+    <string name="bootstrap_error_title">Unable to install bootstrap</string>
+    <string name="bootstrap_error_try_again">Try again</string>
+    <string name="bootstrap_installer_body">Installing bootstrap packages…</string>
+    <string name="copy">Copy</string>
+    <string name="copy_text">Copy</string>
+    <string name="crash_report_notifications_off">Disable notifications for crash reports.</string>
+    <string name="crash_report_notifications_on">Show notifications for crash reports. (Default)</string>
+    <string name="crash_report_notifications_title">Crash Report Notifications</string>
+    <string name="debugging_preferences">Debugging</string>
+    <string name="error_cannot_move_directory_to_sub_directory_of_itself">Cannot move %1$s from \"%2$s\" to \"%3$s\" since destination is a subdirectory of the source.</string>
+    <string name="error_cannot_overwrite_a_different_file_type">Cannot overwrite %1$s while %2$s it from \"%3$s\" to \"%4$s\" since destination file type \"%5$s\" is different from source file type \"%6$s\".</string>
+    <string name="error_cannot_overwrite_a_non_symlink_file_type">Cannot overwrite %1$s while creating symlink at \"%2$s\" to \"%3$s\" since destination file type \"%4$s\" is not a symlink.</string>
+    <string name="error_checking_if_charset_supported_failed">"Checking if charset \"%1$s\" is suppoted failed.
+Exception: %2$s"</string>
+    <string name="error_clearing_directory_failed_with_exception">"Clearing %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="error_copying_or_moving_file_failed_with_exception">"%1$s from \"%2$s\" to \"%3$s\" failed.
+Exception: %4$s"</string>
+    <string name="error_copying_or_moving_file_to_same_path">%1$s from \"%2$s\" to \"%3$s\" cannot be done since they point to the same path.</string>
+    <string name="error_creating_file_failed">Creating %1$s at path \"%2$s\" failed.</string>
+    <string name="error_creating_file_failed_with_exception">"Creating %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="error_creating_symlink_file_failed_with_exception">"Creating %1$s at path \"%2$s\" to \"%3$s\" failed.
+Exception: %4$s"</string>
+    <string name="error_deleting_file_failed">Deleting %1$s at path \"%2$s\" failed.</string>
+    <string name="error_deleting_file_failed_with_exception">"Deleting %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="error_display_over_other_apps_permission_not_granted">Termux requires \"Display over other apps\" permission to start terminal sessions from background on Android >= 10. Grants it from Settings -> Apps -> Termux -> Advanced</string>
+    <string name="error_exception_received_while_executing_termux_session_command">"Exception received while to executing \"%1$s\" termux session command.
+Exception: %2$s"</string>
+    <string name="error_exception_received_while_executing_termux_task_command">"Exception received while to executing \"%1$s\" termux task command.
+Exception: %2$s"</string>
+    <string name="error_executable_required">Executable required.</string>
+    <string name="error_execution_cancelled">Execution has been cancelled since execution service is being killed</string>
+    <string name="error_failed_to_execute_termux_session_command">Failed to execute \"%1$s\" termux session command</string>
+    <string name="error_failed_to_execute_termux_task_command">Failed to execute \"%1$s\" termux task command</string>
+    <string name="error_file_not_an_allowed_file_type">The %1$s found at path \"%2$s\" is not one of allowed file types \"%3$s\".</string>
+    <string name="error_file_not_executable">The %1$s at path is not executable. Permission Denied.</string>
+    <string name="error_file_not_found_at_path">The %1$s is not found at path \"%2$s\".</string>
+    <string name="error_file_not_readable">The %1$s at path is not readable. Permission Denied.</string>
+    <string name="error_file_not_writable">The %1$s at path is not writable. Permission Denied.</string>
+    <string name="error_file_still_exists_after_deleting">The %1$s still exists after deleting it from \"%2$s\".</string>
+    <string name="error_invalid_file_permissions_string_to_check">The file permission string to check is invalid.</string>
+    <string name="error_no_regular_file_found">Regular file not found at %1$s path.</string>
+    <string name="error_non_directory_file_found">Non-directory file found at %1$s path.</string>
+    <string name="error_non_regular_file_found">Non-regular file found at %1$s path.</string>
+    <string name="error_non_symlink_file_found">Non-symlink file found at %1$s path.</string>
+    <string name="error_not_a_regular_file">The %1$s at path \"%2$s\" is not a regular file.</string>
+    <string name="error_null_or_empty_directory_file">The directory file is null or empty.</string>
+    <string name="error_null_or_empty_directory_file_path">The directory file path is null or empty.</string>
+    <string name="error_null_or_empty_executable_file">The executable file is null or empty.</string>
+    <string name="error_null_or_empty_executable_file_path">The executable file path is null or empty.</string>
+    <string name="error_null_or_empty_parameter">The %1$s is to \"%2$s\" null or empty.</string>
+    <string name="error_null_or_empty_regular_file">The regular file is null or empty.</string>
+    <string name="error_null_or_empty_regular_file_path">The regular file path is null or empty.</string>
+    <string name="error_reading_string_to_file_failed_with_exception">"Reading string from %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="error_run_command_service_allow_external_apps_ungranted">RunCommandService require `allow-external-apps` property to be set to `true` in `~/.termux/termux.properties` file.</string>
+    <string name="error_run_command_service_api_help">Visit %1$s for more info on RUN_COMMAND Intent usage.</string>
+    <string name="error_run_command_service_invalid_intent_action">Invalid intent action to RunCommandService: `%1$s`</string>
+    <string name="error_run_command_service_mandatory_extra_missing">Mandatory extra missing to RunCommandService: \"%1$s\"</string>
+    <string name="error_sending_sigkill_to_process">Sending SIGKILL to process on user request or because android is killing the execution service</string>
+    <string name="error_styling_not_installed">The Termux:Styling Plugin App is not installed.</string>
+    <string name="error_unsupported_charset">Unsupported charset \"%1$s\"</string>
+    <string name="error_validate_directory_existence_and_permissions_failed_with_exception">"Validating directory existence and permissions of %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="error_validate_file_existence_and_permissions_failed_with_exception">"Validating file existence and permissions of %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="error_writing_string_to_file_failed_with_exception">"Writing string to %1$s at path \"%2$s\" failed.
+Exception: %3$s"</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="keyboard_header">Keyboard</string>
+    <string name="log_level_debug">Debug</string>
+    <string name="log_level_normal">Normal</string>
+    <string name="log_level_off">Off</string>
+    <string name="log_level_title">Log Level</string>
+    <string name="log_level_unknown">*Unknown*</string>
+    <string name="log_level_value">Logcat log level set to \"%1$s\"</string>
+    <string name="log_level_verbose">Verbose</string>
+    <string name="logging_header">Logging</string>
+    <string name="message_sudo_please_grant_permissions">Please grant permissions on next screen</string>
+    <string name="msg_disabling_terminal_toolbar">Disabling Terminal Toolbar</string>
+    <string name="msg_enabling_terminal_toolbar">Enabling Terminal Toolbar</string>
+    <string name="msg_executable_absolute_path">Executable Absolute Path: \"%1$s\"</string>
+    <string name="msg_max_terminals_reached">Close down existing ones before creating new.</string>
+    <string name="msg_report_issue">"If you want to report this issue, then copy its text from the options menu (3-dots on top right) and post an issue on one of the following links. If you are posting on Github, then post it in the repository at which the report belongs at. You may optionally remove any device specific info that you consider private or don't want to share or that is not relevant to the issue."</string>
+    <string name="msg_select_url_copied_to_clipboard">URL copied to clipboard</string>
+    <string name="msg_terminal_reset">Terminal reset.</string>
+    <string name="msg_working_directory_absolute_path">Working Directory Absolute Path: \"%1$s\"</string>
+    <string name="not_set">Not set</string>
+    <string name="notification_action_exit">Exit</string>
+    <string name="notification_action_wake_lock">Acquire wakelock</string>
+    <string name="notification_action_wake_unlock">Release wakelock</string>
+    <string name="paste_text">Paste</string>
+    <string name="permission_run_command_description">execute arbitrary commands within Termux environment</string>
+    <string name="permission_run_command_label">Run commands in Termux environment</string>
+    <string name="plugin_error_notifications_off">Disable flashes and notifications for plugin errors.</string>
+    <string name="plugin_error_notifications_on">Show flashes and notifications for plugin errors. (Default)</string>
+    <string name="plugin_error_notifications_title">Plugin Error Notifications</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="search_menu_title">Search</string>
+    <string name="shared_user_label">Termux user</string>
+    <string name="soft_keyboard_off">Soft keyboard will be disabled.</string>
+    <string name="soft_keyboard_on">Soft keyboard will be enabled. (Default)</string>
+    <string name="soft_keyboard_title">Soft Keyboard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="terminal_io_preferences">Terminal I/O</string>
+    <string name="terminal_view_key_logging_off">Logs will not have entries for terminal view keys. (Default)</string>
+    <string name="terminal_view_key_logging_on">Logcat logs will have entries for terminal view keys. These are very verbose and should be disabled under normal circumstances or will cause performance issues.</string>
+    <string name="terminal_view_key_logging_title">Terminal View Key Logging</string>
+    <string name="text_selection_more">More…</string>
+    <string name="title_activity_termux_settings">Termux Settings</string>
+    <string name="title_confirm_kill_process">Really kill this session?</string>
+    <string name="title_create_named_session">New named session</string>
+    <string name="title_file_received">Save file in ~/downloads/</string>
+    <string name="title_max_terminals_reached">Max terminals reached</string>
+    <string name="title_rename_session">Set session name</string>
+    <string name="title_report_text">Report Text</string>
+    <string name="title_select_url_dialog">Click URL to copy or long press to open</string>
+    <string name="title_select_url_none_found">No URL found in the terminal.</string>
+    <string name="title_share_transcript">Terminal transcript</string>
+    <string name="title_share_transcript_with">Send transcript to:</string>
+    <string name="title_share_with">Share With</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+</resources>

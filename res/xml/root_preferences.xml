@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference app:fragment="com.termux.app.fragments.settings.DebuggingPreferencesFragment" app:summary="Preferences for debugging" app:title="@string/debugging_preferences" />
+    <Preference app:fragment="com.termux.app.fragments.settings.TerminalIOPreferencesFragment" app:summary="Preferences for terminal I/O" app:title="@string/terminal_io_preferences" />
+</PreferenceScreen>

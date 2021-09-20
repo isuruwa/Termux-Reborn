@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/partial_toolbar" layout="@layout/partial_toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingTop="@dimen/content_padding" android:paddingBottom="36.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>
