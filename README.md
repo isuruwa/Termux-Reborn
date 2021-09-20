@@ -12,3 +12,7 @@
 * No more Errors
 
 # <a href = "https://github.com/isuruwa/Termux-Reborn/releases/download/Termux/Termux-Reborn.apk">Download Apk</a>
+
+# SCREENSHOTS :
+
+![pkgupdate](https://user-images.githubusercontent.com/72663288/133986178-53f8336e-9941-4814-bbb7-907f48c51160.jpg)
