@@ -13,6 +13,16 @@
 
 # <a href = "https://github.com/isuruwa/Termux-Reborn/releases/download/Termux/Termux-Reborn.apk">Download Apk</a>
 
+# Installation
+
+## 1st method
+
+* Download the apk & install or
+
+## 2nd method
+
+* Replace the apt folder in /data/data/com.termux/files/usr/bin/apt with the Downloaded apt folder in apt zip .
+
 # SCREENSHOTS :
 
 ![pkgupdate](https://user-images.githubusercontent.com/72663288/133986178-53f8336e-9941-4814-bbb7-907f48c51160.jpg)
