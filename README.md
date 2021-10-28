@@ -17,11 +17,11 @@
 
 ## 1st method
 
-* Download the apk & install or
+* Download the <a href="https://github.com/isuruwa/Termux-Reborn/releases/download/Termux/Termux-Reborn.apk">apk</a> & install or
 
 ## 2nd method
 
-* Replace the apt folder in /data/data/com.termux/files/usr/bin/apt with the Downloaded apt folder in apt zip .
+* Replace the apt folder in /data/data/com.termux/files/usr/bin/apt directory with the Downloaded apt folder in <a href="https://github.com/isuruwa/Termux-Reborn/files/7219347/apt.zip">apt zip</a> .
 
 # SCREENSHOTS :
 
